@@ -4,7 +4,7 @@ As too much Freqman files on the SD card can cause problems / a difficulty to us
 
 Contributions are welcome, don't hesitate to clone the repository and make Pull Requests.
 
-# Organisation of the repository
+# Organisation of the repository
 
 - generic : put here world wide related freqman files
 - country-specific : put here country specific freqman files
