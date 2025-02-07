@@ -11,8 +11,15 @@ Contributions are welcome, don't hesitate to clone the repository and make Pull 
 
 # Formatting
 
-Freqman files filenames have to be upper case.
+Freqman files filenames have to be upper case
 
-Formatting rules are those of the 'Freq Manager' which can be seen [here](https://github.com/portapack-mayhem/mayhem-firmware/wiki/Freq-manager).
+Formatting rules are those of the 'Freq Manager' which can be seen [here](https://github.com/portapack-mayhem/mayhem-firmware/wiki/Freq-manager)
 
 See generic/GENERIC_EXAMPLE.TXT for a full example
+
+If possible add a header in your files, at least the description field, like this:
+
+```
+# description: short desc of the file contents
+# author: your nick/name 
+```
