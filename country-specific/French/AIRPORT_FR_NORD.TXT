@@ -1,6 +1,10 @@
-f=118550000,m=AM,bw=DSB 6k,d=TOWER
-f=119330000,m=AM,bw=DSB 6k,d=ATIS
-f=120275000,m=AM,bw=DSB 6k,d=APPR WEST
-f=121855000,m=AM,bw=DSB 6k,d=GROUND
-f=126475000,m=AM,bw=DSB 6k,d=APPR EAST
-f=134825000,m=AM,bw=DSB 6k,d=APPR
+# Description: French Nord airport frequencies
+# Author: gullradriel
+
+# Nord
+f=118550000,m=AM,bw=DSB 6k,d=TOWER-NORD
+f=119330000,m=AM,bw=DSB 6k,d=ATIS-NORD
+f=120275000,m=AM,bw=DSB 6k,d=APPR WEST-NORD
+f=121855000,m=AM,bw=DSB 6k,d=GROUND-NORD
+f=126475000,m=AM,bw=DSB 6k,d=APPR EAST-NORD
+f=134825000,m=AM,bw=DSB 6k,d=APPR-NORD

@@ -1,28 +1,20 @@
-# Generic Example Frequencies for Mayhem
-# Version: 1.0
 # Description: Example file with various frequency types
 # Author: Mayhem Team
-# License: CC0
 
 # Single frequency entries
 f=1000000,m=AM,bw=DSB 9k,d=Longwave Test
 f=5000000,m=AM,bw=DSB 9k,d=Time Signal WWV
 f=10000000,m=AM,bw=DSB 9k,d=Shortwave Time Signal
-
 # Frequency range for AM radio search
 a=87000000,b=110000000,m=AM,bw=DSB 9k,s=100kHz,d=AM radio search
 a=87000000,b=110000000,m=WFM,bw=200k,s=50kHz,d=WFM radio search
-
 # Amateur radio band frequencies
 f=144000000,m=NFM,bw=16k,d=2m Band Example
 f=433920000,m=NFM,bw=16k,d=70cm Band Example
-
 # Ham radio repeater
 r=430150000,t=430550000,m=NFM,bw=16k,d=HAM radio repeater
-
 # Public service frequencies
 f=162550000,m=NFM,bw=11k,d=NOAA Weather Radio
 f=446006250,m=NFM,bw=16k,d=PMR Channel 1
-
 # Example of a repeater with offset
 l=430150000,t=431150000,m=SPEC,bw=1000k,d=Repeater TX offset 1MHz
