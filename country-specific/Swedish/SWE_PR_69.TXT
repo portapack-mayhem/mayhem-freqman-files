@@ -1,3 +1,6 @@
+# description: Public Radio 69MHz is a band open for use by the public.
+# Please note that you are responsible for checking the regulations yourself before using a frequency.
+# author: lerold 
 f=69012500,d=PR 69 C1
 f=69037500,d=PR 69 C2
 f=69062500,d=PR 69 C3

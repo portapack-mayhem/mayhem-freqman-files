@@ -1,3 +1,7 @@
+# description: The frequencies on this band were previously only allowed for hunting. Today, they are open for other land mobile traffic and can be used for recreational communication of other kinds.
+# The maximum power is 5W, and the maximum transmission cycle is 10%, which means that within one hour, transmission is allowed for a maximum of 6 minutes.
+# Please note that you are responsible for checking the regulations yourself before using a frequency.
+# author: lerold 
 f=30930000,d=HUNTING & AGRICULTURAL 31 C1
 f=30940000,d=HUNTING & AGRICULTURAL 31 C25
 f=30950000,d=HUNTING & AGRICULTURAL 31 C26
