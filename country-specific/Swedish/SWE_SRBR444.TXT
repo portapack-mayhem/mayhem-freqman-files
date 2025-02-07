@@ -2,11 +2,11 @@
 # The original 8 channels spacing was 25 kHz but has since been increased to 12,5kHz or 6,25kHz.
 # Please note that you are responsible for checking the regulations yourself before using a frequency.
 # author: lerold 
-f=444600000,m=WFM,bw=25k,d=KDR SRBR C1
-f=444625000,m=WFM,bw=25k,d=KDR SRBR C2
-f=444800000,m=WFM,bw=25k,d=KDR SRBR C3
-f=444825000,m=WFM,bw=25k,d=KDR SRBR C4
-f=444850000,m=WFM,bw=25k,d=KDR SRBR C5
-f=444875000,m=WFM,bw=25k,d=KDR SRBR C6
-f=444925000,m=WFM,bw=25k,d=KDR SRBR C7
-f=444975000,m=WFM,bw=25k,d=KDR SRBR C8
+f=444600000,m=NFM,bw=25k,d=KDR SRBR C1
+f=444625000,m=NFM,bw=25k,d=KDR SRBR C2
+f=444800000,m=NFM,bw=25k,d=KDR SRBR C3
+f=444825000,m=NFM,bw=25k,d=KDR SRBR C4
+f=444850000,m=NFM,bw=25k,d=KDR SRBR C5
+f=444875000,m=NFM,bw=25k,d=KDR SRBR C6
+f=444925000,m=NFM,bw=25k,d=KDR SRBR C7
+f=444975000,m=NFM,bw=25k,d=KDR SRBR C8
