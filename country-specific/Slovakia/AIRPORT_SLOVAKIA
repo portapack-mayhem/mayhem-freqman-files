@@ -1,56 +1,58 @@
-# Lzib - Bratislava
-f=134925000,d=Stefanik Radar
-f=118300000,d=Stefanik Tower
-f=120900000,d=Stefanik Delivery
-f=131850000,d=Airport Bratislava
-f=108300000,d=Lzib Loc Rwy 22
-f=110700000,d=Lzib Loc Rwy 31
-f=125000000,d=Bratislava Control
-f=128650000,d=Stefanik Atis Arrival
-f=133875000,d=Stefanik Atis Departure
-f=126200000,d=Bratislava Volmet
-f=134475000,d=Bratislava Radar
-f=126475000,d=Bratislava Radar
-f=127475000,d=Bratislava Radar
-f=129275000,d=Bratislava Radar
-# Lzkz - Kosice
-f=119850000,d=Kosice Radar
-f=120400000,d=Kosice Tower
-f=109500000,d=Lzkz Loc Rwy 01
-f=131850000,d=Kosice Handling
-f=133725000,d=Kosice Atis
-# Lzpp - Piestany
-f=118575000,d=Piestany Tower
-f=122600000,d=Lzpp Piestany Traffic
-f=109300000,d=Lzpp Loc Rwy 36
-# Lzsl - Sliac
-f=119150000,d=Sliac Radar
-f=122900000,d=Sliac Tower
-f=108700000,d=Lzsl Loc Rwy 36
-# Lztt - Poprad - Tatry
-f=121350000,d=Tatry Tower
-f=110100000,d=Lztt Loc Rwy 27
-f=133125000,d=Poprad Tatry Atis
-# Lzzi - Zilina
-f=124150000,d=Zilina Tower
-f=108150000,d=Lzzi Loc Rwy 06
-f=122600000,d=Lzzi Zilina Traffic
-# Fir Lkaa
-f=136175000,d=Praha Information East
-f=127350000,d=Brno Radar
-f=119600000,d=Brno Tower
-f=119375000,d=Ostrava Radar
-f=124050000,d=Ostrava Radar
-f=120800000,d=Ostrava Tower
-# Fir Lovv 
-f=124400000,d=Wien Information
-# Fir Lhcc
-f=133000000,d=Budapest Info East
-f=125500000,d=Budapest Info West
-f=119350000,d=Budapest Info North
-# Fir Epww 
-f=119275,d=Krakow Information
-# Fir Uklv
-f=121900000,d=Uzhorod Radar
-f=134500000,d=Uzhorod Tower
+# Slovak Airband Frequencies
 # author:norman157
+
+# Lzib - Bratislava
+f=134925000,m=AM,bw=DSB 6k,d=Stefanik Radar
+f=118300000,m=AM,bw=DSB 6k,d=Stefanik Tower
+f=120900000,m=AM,bw=DSB 6k,d=Stefanik Delivery
+f=131850000,m=AM,bw=DSB 6k,d=Airport Bratislava
+f=108300000,m=AM,bw=DSB 6k,d=Lzib Loc Rwy 22
+f=110700000,m=AM,bw=DSB 6k,d=Lzib Loc Rwy 31
+f=125000000,m=AM,bw=DSB 6k,d=Bratislava Control
+f=128650000,m=AM,bw=DSB 6k,d=Stefanik Atis Arrival
+f=133875000,m=AM,bw=DSB 6k,d=Stefanik Atis Departure
+f=126200000,m=AM,bw=DSB 6k,d=Bratislava Volmet
+f=134475000,m=AM,bw=DSB 6k,d=Bratislava Radar
+f=126475000,m=AM,bw=DSB 6k,d=Bratislava Radar
+f=127475000,m=AM,bw=DSB 6k,d=Bratislava Radar
+f=129275000,m=AM,bw=DSB 6k,d=Bratislava Radar
+# Lzkz - Kosice
+f=119850000,m=AM,bw=DSB 6k,d=Kosice Radar
+f=120400000,m=AM,bw=DSB 6k,d=Kosice Tower
+f=109500000,m=AM,bw=DSB 6k,d=Lzkz Loc Rwy 01
+f=131850000,m=AM,bw=DSB 6k,d=Kosice Handling
+f=133725000,m=AM,bw=DSB 6k,d=Kosice Atis
+# Lzpp - Piestany
+f=118575000,m=AM,bw=DSB 6k,d=Piestany Tower
+f=122600000,m=AM,bw=DSB 6k,d=Lzpp Piestany Traffic
+f=109300000,m=AM,bw=DSB 6k,d=Lzpp Loc Rwy 36
+# Lzsl - Sliac
+f=119150000,m=AM,bw=DSB 6k,d=Sliac Radar
+f=122900000,m=AM,bw=DSB 6k,d=Sliac Tower
+f=108700000,m=AM,bw=DSB 6k,d=Lzsl Loc Rwy 36
+# Lztt - Poprad - Tatry
+f=121350000,m=AM,bw=DSB 6k,d=Tatry Tower
+f=110100000,m=AM,bw=DSB 6k,d=Lztt Loc Rwy 27
+f=133125000,m=AM,bw=DSB 6k,d=Poprad Tatry Atis
+# Lzzi - Zilina
+f=124150000,m=AM,bw=DSB 6k,d=Zilina Tower
+f=108150000,m=AM,bw=DSB 6k,d=Lzzi Loc Rwy 06
+f=122600000,m=AM,bw=DSB 6k,d=Lzzi Zilina Traffic
+# Fir Lkaa
+f=136175000,m=AM,bw=DSB 6k,d=Praha Information East
+f=127350000,m=AM,bw=DSB 6k,d=Brno Radar
+f=119600000,m=AM,bw=DSB 6k,d=Brno Tower
+f=119375000,m=AM,bw=DSB 6k,d=Ostrava Radar
+f=124050000,m=AM,bw=DSB 6k,d=Ostrava Radar
+f=120800000,m=AM,bw=DSB 6k,d=Ostrava Tower
+# Fir Lovv 
+f=124400000,m=AM,bw=DSB 6k,d=Wien Information
+# Fir Lhcc
+f=133000000,m=AM,bw=DSB 6k,d=Budapest Info East
+f=125500000,m=AM,bw=DSB 6k,d=Budapest Info West
+f=119350000,m=AM,bw=DSB 6k,d=Budapest Info North
+# Fir Epww 
+f=119275000,m=AM,bw=DSB 6k,d=Krakow Information
+# Fir Uklv
+f=121900000,m=AM,bw=DSB 6k,d=Uzhorod Radar
+f=134500000,m=AM,bw=DSB 6k,d=Uzhorod Tower
