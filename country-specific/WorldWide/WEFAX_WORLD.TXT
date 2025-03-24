@@ -1,0 +1,145 @@
+# Description: WEather FAX list Europe
+# Author: gullradriel
+
+# Schedule explanations
+
+# "H +xx" indicates forecast 
+# hours from the time of 
+# chart creation (e.g., 
+# H +24 = forecast 24 hours 
+# ahead)
+
+# "em" refers to ensemble mean
+# forecasts
+
+# "em" refers to ensemble mean
+# forecasts with variance
+
+# "500 hPa H" stands for 
+# geopotential height at 
+# 500 hPa.
+
+# "850 hPa T" indicates 
+# temperature at 850 hPa.
+
+# "700 hPa f" likely 
+# refers to humidity/ 
+# frequently "RH"—relative
+# humidity—at this altitude
+
+# Schedule
+
+# HHMM Description
+
+# 0430 Surface weather chart
+# 0512 H+24 surface pressure
+# 0525 Repeat of 0430 chart
+
+# 0546 H+12,H+24(emv)
+# 500hPa H, surface T
+
+# 0559 H+12,H+24(emv)
+# 850hPa T, 700 hPa RH
+
+# 0612 H+36,H+48(emv)
+# 500hPa H, surface T
+
+# 0625 H+36,H+48(emv)
+# 850hPa T, 700 hPa RH
+
+# 0638 H+36,H+48(emv)
+# 500 hPa H, surface T
+# forecast
+
+# 0651 H+36,H+48(emv)
+# 850 hPa T, 700 hPa RH
+
+# 0704 H+60,H+72(em)
+# 500 hPa H, surface T
+
+# 0717 H+60,H+72(em)
+# 850 hPa T, 700 hPa RH
+
+# 0730 Repeat of 0512
+
+# 0745 Surface pressure
+# analysis
+
+# 0808 H +48 (em) surface
+# pressure
+
+# 0821 H +72 (em) surface
+# pressure
+
+# 0834 H +96 (em) surface
+# pressure
+
+# 0945 Sea surface 
+# temperature, North Sea
+
+# 1007 Ice conditions chart
+# 1029 Wave predictions
+# 1050 Surface weather chart
+# 1111 Transmission schedule
+# 1124 Test chart
+# 1520 Ice conditions chart
+# 1541 Ice conditions chart
+# 1600 Surface weather chart
+# 1810 Surface pressure chart
+# 1832 H +24 surface pressure
+# 1845 Repeat of 0808
+# 1900 Repeat of 0829
+# 1915 Sea ice observations
+# 2115 Ice conditions chart
+# 2136 Repeat of 1029
+# 2200 Surface weather chart
+
+# HINTS
+
+# 9,318 MHz is regularly
+# emitting over America
+
+# OFFENBACH around 3,855 MHz
+# 7,880 MHz and 13,8825 MHz 
+
+# Frequency List
+
+# End of description contain RPM/IOC to use
+f=53600,m=AMFM,bw=USB+FM,d=MOSCOU 120/576 60/90/288/576
+f=111800,m=AMFM,bw=USB+FM,d=PRAGUE 120/576
+f=2618000,m=AMFM,bw=USB+FM,d=BRACKNELL MET 120/576
+f=3288000,m=AMFM,bw=USB+FM,d=BRACKNELL MET 120/576
+f=3357000,m=AMFM,bw=USB+FM,d=MADRID MET 120/576
+f=3853000,m=AMFM,bw=USB+FM,d=OFFENBACH 120/576
+f=4055000,m=AMFM,bw=USB+FM,d=MOURMANSK 120/576
+f=4305000,m=AMFM,bw=USB+FM,d=NORTHWOOD 120/576
+f=4489000,m=AMFM,bw=USB+FM,d=BRACKNELL SHIP/SYNOP 75 bauds
+f=4610000,m=AMFM,bw=USB+FM,d=BRACKNELL MET CONT 120/576 288
+f=4777000,m=AMFM,bw=USB+FM,d=ROME MET 120/576
+f=4782000,m=AMFM,bw=USB+FM,d=BRACKNELL 120/576
+f=5241000,m=AMFM,bw=USB+FM,d=BELGRADE PRESS 120/576
+f=5777000,m=AMFM,bw=USB+FM,d=NEWS PHOTOS 120/576
+f=5890000,m=AMFM,bw=USB+FM,d=TACHKENT 120/576
+f=6444000,m=AMFM,bw=USB+FM,d=NORTHWOOD 120/576
+f=6878000,m=AMFM,bw=USB+FM,d=MOSCOU 90/576
+f=6918000,m=AMFM,bw=USB+FM,d=ESPAGNE MET 120/576
+f=7497000,m=AMFM,bw=USB+FM,d=TBILISI MET 120/576
+f=7597000,m=AMFM,bw=USB+FM,d=USN DIEGO GARCIA 120/576
+f=7750000,m=AMFM,bw=USB+FM,d=MOSCOU MET 120/576
+f=7880000,m=AMFM,bw=USB+FM,d=OFFENBACH 120/576
+f=8038000,m=AMFM,bw=USB+FM,d=BRACKNELL 120/576
+f=8083000,m=AMFM,bw=USB+FM,d=BRACKNELL 120/576
+f=8146000,m=AMFM,bw=USB+FM,d=ROME 120/576
+f=8330000,m=AMFM,bw=USB+FM,d=PhotosMeteoSatNorthwood120/576
+f=8493000,m=AMFM,bw=USB+FM,d=NORTHWOOD 120/576
+f=9201000,m=AMFM,bw=USB+FM,d=BRACKNELL 120/576
+f=9220000,m=AMFM,bw=USB+FM,d=NOVOSIBIRSK 120/576
+f=9242000,m=AMFM,bw=USB+FM,d=BUENOS AIRES 120/576
+f=9318000,m=AMFM,bw=USB+FM,d=USN KEFLAVIK 120/576
+f=9380000,m=AMFM,bw=USB+FM,d=USN ROTA 120/576
+f=10228000,m=AMFM,bw=USB+FM,d=MOSCOU 120/576
+f=10365000,m=AMFM,bw=USB+FM,d=USN NORFOLK 120/576
+f=11086000,m=AMFM,bw=USB+FM,d=BRACKNELL 120/576
+f=15950000,m=AMFM,bw=USB+FM,d=MOSCOU MET 90/576
+f=16268000,m=AMFM,bw=USB+FM,d=KYODO PRESS SINGAPOUR 120/576
+f=20015000,m=AMFM,bw=USB+FM,d=USN NORFOLK 120/576
