@@ -1,7 +1,7 @@
 # Description: WEather FAX list Europe
 # Author: gullradriel
 
-# Schedule explanations
+# Schedule explanations
 
 # "H +xx" indicates forecast 
 # hours from the time of 
@@ -94,17 +94,17 @@
 # 2136 Repeat of 1029
 # 2200 Surface weather chart
 
-# HINTS
+# HINTS
 
 # 9,318 MHz is regularly
 # emitting over America
 
 # OFFENBACH around 3,855 MHz
-# 7,880 MHz and 13,8825 MHz 
+# 7,880 MHz and 13,8825 MHz 
 
 # Frequency List
 
-# End of description contain RPM/IOC to use
+# End of description contain RPM/IOC to use
 f=53600,m=AMFM,bw=USB+FM,d=MOSCOU 120/576 60/90/288/576
 f=111800,m=AMFM,bw=USB+FM,d=PRAGUE 120/576
 f=2618000,m=AMFM,bw=USB+FM,d=BRACKNELL MET 120/576
@@ -143,3 +143,4 @@ f=11086000,m=AMFM,bw=USB+FM,d=BRACKNELL 120/576
 f=15950000,m=AMFM,bw=USB+FM,d=MOSCOU MET 90/576
 f=16268000,m=AMFM,bw=USB+FM,d=KYODO PRESS SINGAPOUR 120/576
 f=20015000,m=AMFM,bw=USB+FM,d=USN NORFOLK 120/576
+
