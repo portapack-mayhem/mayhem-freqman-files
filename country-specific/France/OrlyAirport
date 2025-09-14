@@ -1,0 +1,13 @@
+# Decription: French airport frequencies
+# Author : Ademolght Discord : testcode_m5stick_44450
+
+# Orly-Airport
+
+f=118700000,m=AM,bw=DSB 6k,d=Tower
+f=123875000,m=AM,bw=DSB 6k,d=Approche1st
+f=124450000,m=AM,bw=DSB 6k,d=Approche2nd
+f=127750000,m=AM,bw=DSB 6k,d=Depart1st
+f=128375000,m=AM,bw=DSB 6k,d=Depart2nd
+f=128850000,m=AM,bw=DSB 6k,d=Approche3rd
+f=131350000,m=AM,bw=DSB 6k,d=Atis
+f=135000000,m=AM,bw=DSB 6k,d=Info
