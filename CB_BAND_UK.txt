@@ -1,7 +1,7 @@
 # description: Frequency map for 27Mhz UK legal CB channels
 # author: STEIN-TIME (30/12/25)
 
-# Single frequency entries
+# Single frequency allocations
 
 f=27601250,d=UK CH 01
 f=27611250,d=UK CH 02
