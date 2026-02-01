@@ -1,0 +1,48 @@
+# Description: French FM RADIOS LYON
+# Author: gullradriel
+
+f=87800000,m=WFM,bw=200k,d=Mouv’
+f=88400000,m=WFM,bw=200k,d=RCF Lyon
+f=88800000,m=WFM,bw=200k,d=France Culture
+f=89300000,m=WFM,bw=200k,d=Virage Radio
+f=89800000,m=WFM,bw=200k,d=Radio Nova
+f=90200000,m=WFM,bw=200k,d=Lyon Première
+f=90700000,m=WFM,bw=200k,d=Radio Brume
+f=91100000,m=WFM,bw=200k,d=Radio Salam
+f=91500000,m=WFM,bw=200k,d=Radio Pluriel
+f=92000000,m=WFM,bw=200k,d=Radio Scoop
+f=92400000,m=WFM,bw=200k,d=France Musique
+f=92900000,m=WFM,bw=200k,d=Nostalgie Lyon
+f=93300000,m=WFM,bw=200k,d=Fun Radio
+f=93700000,m=WFM,bw=200k,d=M Radio Lyon
+f=94100000,m=WFM,bw=200k,d=France Culture (2ᵉ émetteur)
+f=94500000,m=WFM,bw=200k,d=Radio Judaïca Lyon
+f=94900000,m=WFM,bw=200k,d=Rire & Chansons
+f=95300000,m=WFM,bw=200k,d=BFM Business
+f=95700000,m=WFM,bw=200k,d=RTL2
+f=96100000,m=WFM,bw=200k,d=Skyrock
+f=96500000,m=WFM,bw=200k,d=Radio Classique
+f=96900000,m=WFM,bw=200k,d=Radio Espace
+f=97300000,m=WFM,bw=200k,d=Jazz Radio
+f=98000000,m=WFM,bw=200k,d=France Musique (2ᵉ émetteur)
+f=98400000,m=WFM,bw=200k,d=Tonic Radio
+f=98900000,m=WFM,bw=200k,d=Chérie FM Lyon
+f=99300000,m=WFM,bw=200k,d=Radio CapSao
+f=99800000,m=WFM,bw=200k,d=France Inter
+f=100300000,m=WFM,bw=200k,d=Europe 2 Rhône
+f=100700000,m=WFM,bw=200k,d=Sol FM
+f=101100000,m=WFM,bw=200k,d=France Inter (2ᵉ émetteur)
+f=101500000,m=WFM,bw=200k,d=Générations Lyon
+f=101800000,m=WFM,bw=200k,d=France Bleu Isère
+f=102200000,m=WFM,bw=200k,d=Radio Canut
+f=102600000,m=WFM,bw=200k,d=Radio Arménie
+f=103000000,m=WFM,bw=200k,d=NRJ Lyon
+f=103400000,m=WFM,bw=200k,d=France Info
+f=104200000,m=WFM,bw=200k,d=RMC
+f=104600000,m=WFM,bw=200k,d=Europe 1
+f=105000000,m=WFM,bw=200k,d=RTL
+f=106300000,m=WFM,bw=200k,d=Impact FM
+f=106700000,m=WFM,bw=200k,d=Radio Orient
+f=107300000,m=WFM,bw=200k,d=RFM Rhône-Alpes
+f=107700000,m=WFM,bw=200k,d=Radio Vinci Autoroutes
+
