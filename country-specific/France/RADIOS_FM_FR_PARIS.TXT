@@ -1,3 +1,6 @@
+# Description: French FM Radios PARIS
+# Author: Lerold
+
 f=87800000,m=WFM,bw=200k,d=France Inter
 f=87600000,m=WFM,bw=200k,d=France Inter
 f=88200000,m=WFM,bw=200k,d=Generations
