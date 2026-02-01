@@ -1,0 +1,101 @@
+########################################
+# PARIS / REGION PARISIENNE - AIP FRANCE 2026
+# Tous terrains <=80 km + MIL + HELI/SECOURS
+# AM / DSB 6k
+########################################
+
+########################
+# PARIS CHARLES-DE-GAULLE (LFPG)
+########################
+f=121155000,m=AM,bw=DSB 6k,d=APPR-CDG OUEST
+f=124355000,m=AM,bw=DSB 6k,d=DEP-CDG Départ
+f=131200000,m=AM,bw=DSB 6k,d=APPR-CDG NORD
+f=118650000,m=AM,bw=DSB 6k,d=TWR-CDG Nord
+f=119250000,m=AM,bw=DSB 6k,d=TWR-CDG Sud
+f=120900000,m=AM,bw=DSB 6k,d=TWR-CDG Est
+f=121610000,m=AM,bw=DSB 6k,d=GND-CDG OUEST
+f=121780000,m=AM,bw=DSB 6k,d=GND-CDG EST
+f=121980000,m=AM,bw=DSB 6k,d=GND-CDG SUD
+f=121730000,m=AM,bw=DSB 6k,d=PREVOL-CDG
+f=127130000,m=AM,bw=DSB 6k,d=ATIS-CDG EN
+f=128230000,m=AM,bw=DSB 6k,d=ATIS-CDG FR
+
+########################
+# PARIS ORLY (LFPO)
+########################
+f=118855000,m=AM,bw=DSB 6k,d=APPR-ORLY OUEST
+f=120855000,m=AM,bw=DSB 6k,d=APPR-ORLY EST
+f=121700000,m=AM,bw=DSB 6k,d=GND-ORLY OUEST
+f=121815000,m=AM,bw=DSB 6k,d=GND-ORLY EST
+f=118700000,m=AM,bw=DSB 6k,d=TWR-ORLY Nord
+f=120500000,m=AM,bw=DSB 6k,d=TWR-ORLY Sud
+f=121050000,m=AM,bw=DSB 6k,d=PREVOL-ORLY
+f=126500000,m=AM,bw=DSB 6k,d=ATIS-ORLY FR
+f=131350000,m=AM,bw=DSB 6k,d=ATIS-ORLY EN
+
+########################
+# PARIS LE BOURGET (LFPB)
+########################
+f=118400000,m=AM,bw=DSB 6k,d=TWR-LFB OUEST
+f=118925000,m=AM,bw=DSB 6k,d=TWR-LFB EST
+f=121900000,m=AM,bw=DSB 6k,d=GND-LFB Sol
+f=121950000,m=AM,bw=DSB 6k,d=PREVOL-LFB
+f=120000000,m=AM,bw=DSB 6k,d=ATIS-LFB
+
+########################
+# PONTOISE CORMEILLES EN VEXIN (LFPT)
+########################
+f=121200000,m=AM,bw=DSB 6k,d=TWR-PONTOISE
+f=124125000,m=AM,bw=DSB 6k,d=ATIS-PONTOISE
+f=118000000,m=AM,bw=DSB 6k,d=APPR-PONTOISE
+f=121200000,m=AM,bw=DSB 6k,d=AIR/AIR-PONTOISE
+
+########################
+# MELUN VILLAROCHE (LFPM)
+########################
+f=118050000,m=AM,bw=DSB 6k,d=APPR-MELUN SJ
+f=118890000,m=AM,bw=DSB 6k,d=APPR-MELUN SI
+f=134875000,m=AM,bw=DSB 6k,d=APPR-MELUN SK
+f=121100000,m=AM,bw=DSB 6k,d=TWR-MELUN
+f=128175000,m=AM,bw=DSB 6k,d=ATIS-MELUN
+
+########################
+# TOUSSUS-LE-NOBLE (LFPN)
+########################
+f=120750000,m=AM,bw=DSB 6k,d=TWR-TOUSSUS
+f=122130000,m=AM,bw=DSB 6k,d=GND-TOUSSUS
+f=119300000,m=AM,bw=DSB 6k,d=VDF-TOUSSUS
+f=127475000,m=AM,bw=DSB 6k,d=ATIS-TOUSSUS
+
+########################
+# SAINT-CYR-L’ECOLE (LFPZ)
+########################
+f=118000000,m=AM,bw=DSB 6k,d=TWR-STCYR
+f=121950000,m=AM,bw=DSB 6k,d=GND-STCYR
+f=131025000,m=AM,bw=DSB 6k,d=ATIS-STCYR
+
+########################
+# LOGNES EMERAINVILLE (LFPL)
+########################
+f=118600000,m=AM,bw=DSB 6k,d=TWR-LOGNES
+f=121850000,m=AM,bw=DSB 6k,d=GND-LOGNES
+f=118600000,m=AM,bw=DSB 6k,d=AIR/AIR-LOGNES
+
+########################
+# ISSY-LES-MOULINEAUX HELIPORT (LFPI)
+########################
+f=135700000,m=AM,bw=DSB 6k,d=HELI-ISSY Helispot
+
+########################
+# VILLACOUBLAY-VELIZY MILITAIRE (LFPV)
+########################
+f=128950000,m=AM,bw=DSB 6k,d=TWR-VILLACOUBLAY MILI
+f=121750000,m=AM,bw=DSB 6k,d=GND-VILLACOUBLAY MILI
+f=119425000,m=AM,bw=DSB 6k,d=APP-VILLACOUBLAY MILI
+
+########################
+# HELICOPTERES / SECOURS / URGENCE REGION PARIS
+########################
+f=121500000,m=AM,bw=DSB 6k,d=URGENCE AERIENNE
+f=123300000,m=AM,bw=DSB 6k,d=HELI-SAMU Coordination
+f=120300000,m=AM,bw=DSB 6k,d=HELI-SECU.CIVILE Dragon
