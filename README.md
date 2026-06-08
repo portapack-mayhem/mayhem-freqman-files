@@ -6,8 +6,12 @@ Contributions are welcome, don't hesitate to clone the repository and make Pull 
 
 # Organisation of the repository
 
-- generic : put here world wide related freqman files
-- country-specific : put here country specific freqman files
+- freqman
+    - generic : put here world wide related freqman files
+    - country-specific : put here country specific freqman files
+- looking_glass
+    - generic : put here world wide related freqman files
+    - country-specific : put here country specific freqman files
 
 # Formatting
 
@@ -15,7 +19,7 @@ Freqman files filenames have to be upper case
 
 Formatting rules are those of the 'Freq Manager' which can be seen [here](https://github.com/portapack-mayhem/mayhem-firmware/wiki/Freq-manager)
 
-See generic/GENERIC_EXAMPLE.TXT for a full example
+See freqman/generic/GENERIC_EXAMPLE.TXT for a full example
 
 If possible add a header in your files, at least the description field, like this:
 
