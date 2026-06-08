@@ -1,0 +1,331 @@
+# ==============================================================================
+# NETHERLANDS FREQUENCY LIST.
+# Description: Comprehensive frequency list covering all 12 Dutch provinces.
+#              Includes aviation, marine/locks, ham radio repeaters, PMR, CB,
+#              national broadcast, and emergency text alerts (P2000).
+# Author: RogueAlchemistCoder
+# Version: 1.0.0
+# ==============================================================================
+
+# NATIONAL: BROADCAST RADIO (AM & FM) ---
+a=531000,b=1602000,m=AM,s=9000,d=AM Medium Wave Broadcast NL (LPAM)
+a=87500000,b=108000000,m=WFM,s=100000,d=FM Radio NL Full Range
+f=92600000,m=WFM,d=NPO Radio 2 (National)
+f=96800000,m=WFM,d=NPO 3FM (National)
+f=98900000,m=WFM,d=NPO Radio 1 (National)
+f=100700000,m=WFM,d=Qmusic NL
+f=101200000,m=WFM,d=Sky Radio NL
+f=102100000,m=WFM,d=Radio 538 NL
+f=103000000,m=WFM,d=Radio Veronica
+f=103600000,m=WFM,d=Radio 10 NL
+f=104600000,m=WFM,d=NPO Radio 4 / Classic NL
+f=91200000,m=WFM,d=BNR Nieuwsradio
+f=100400000,m=WFM,d=Qmusic Alternative
+f=103800000,m=WFM,d=Joe (70s-90s)
+f=107900000,m=WFM,d=Extra lokale hits
+f=88700000,m=WFM,d=NPO Radio 2 alt
+f=94500000,m=WFM,d=Radio Veronica alt
+f=98800000,m=WFM,d=NPO Radio 1 alt
+f=106100000,m=WFM,d=Radio 538 alt
+f=107600000,m=WFM,d=Classic NL
+f=89100000,m=WFM,d=Omroep West / Rijnmond
+f=97700000,m=WFM,d=L1 Radio Limburg
+f=99400000,m=WFM,d=RTV Oost
+f=90800000,m=WFM,d=RTV Drenthe
+f=92200000,m=WFM,d=Omrop Fryslan
+f=89800000,m=WFM,d=Omroep Flevoland
+f=88900000,m=WFM,d=Omroep Gelderland
+f=87900000,m=WFM,d=Omroep Zeeland
+f=89000000,m=WFM,d=Omroep West
+f=93400000,m=WFM,d=Rijnmond Radio
+f=93100000,m=WFM,d=Radio M Utrecht
+
+# NATIONAL: EMERGENCY SERVICES DATA ---
+f=169650000,m=NFM,d=P2000 Emergency Alert NL (POCSAG Decoder)
+a=380000000,b=395000000,m=TETRA,d=C2000 TETRA (Encrypted - activity only)
+
+# NATIONAL: LICENSE-FREE WALKIE-TALKIES (PMR446 ANALOG) ---
+f=44600625,m=NFM,d=PMR Ch01 Toys / Construction
+f=44601875,m=NFM,d=PMR Ch02 General Use
+f=44603125,m=NFM,d=PMR Ch03 Security / Events
+f=44604375,m=NFM,d=PMR Ch04 Outdoor / Recreation
+f=44605625,m=NFM,d=PMR Ch05 Drivers
+f=44606875,m=NFM,d=PMR Ch06 Hospitality / Catering / Logistics
+f=44608125,m=NFM,d=PMR Ch07 Shops / Supermarkets
+f=44609375,m=NFM,d=PMR Ch08 Calling Channel Emergency
+f=44610625,m=NFM,d=PMR Ch09 Digital/Analog Mix
+f=44611875,m=NFM,d=PMR Ch10 New Analog Extension
+f=44613125,m=NFM,d=PMR Ch11 New Analog Extension
+f=44614375,m=NFM,d=PMR Ch12 New Analog Extension
+f=44615625,m=NFM,d=PMR Ch13 New Analog Extension
+f=44616875,m=NFM,d=PMR Ch14 New Analog Extension
+f=44618125,m=NFM,d=PMR Ch15 New Analog Extension
+f=44619375,m=NFM,d=PMR Ch16 KPN / Calling Channel New
+
+# NATIONAL: LICENSE-FREE WALKIE-TALKIES (DPMR446 DIGITAL) ---
+a=446100000,b=446200000,m=NFM,s=6250,d=dPMR446 Digital Band Scan
+
+# NATIONAL: SHORT-RANGE DEVICES / AUTOMATION / IoT ---
+a=433050000,b=434790000,m=NFM,s=25000,d=LPD Band (Full Spectrum)
+f=433920000,m=NFM,d=LPD Central (Car Keys, Weather Stations, Doorbells)
+f=434400000,m=NFM,d=LPD Cranen / Industrial Control NL
+f=868300000,m=NFM,d=IoT / Smart Meters / Domotica / LoRa NL
+f=869525000,m=NFM,d=SRD 869 MHz Band
+
+# NATIONAL: MARINE VHF (CORE SELECTION) ---
+f=156300000,m=NFM,d=Marine VHF Ch06 Social / Intership
+f=156400000,m=NFM,d=Marine VHF Ch08 Intership / Group
+f=156500000,m=NFM,d=Marine VHF Ch10 Intership / Harbor / Inland Waterways
+f=156550000,m=NFM,d=Marine VHF Ch11 Harbor Control / Traffic Post
+f=156600000,m=NFM,d=Marine VHF Ch12 Harbor Traffic / Locks
+f=156650000,m=NFM,d=Marine VHF Ch13 Navigation / Bridge Safety
+f=156700000,m=NFM,d=Marine VHF Ch14 Harbor Operations / Traffic Service
+f=156750000,m=NFM,d=Marine VHF Ch15 On-Board Communication
+f=156800000,m=NFM,d=Marine VHF Ch16 INTERNATIONAL DISTRESS & CALLING
+f=156850000,m=NFM,d=Marine VHF Ch17 On-Board / Harbor Work
+f=156975000,m=NFM,d=Marine VHF Ch19 Rijkswaterstaat / Harbors
+f=157000000,m=NFM,d=Marine VHF Ch20 Locks / Traffic Posts NL
+f=157100000,m=NFM,d=Marine VHF Ch22 KNRM Rescue / Lifeguards NL
+f=157300000,m=NFM,d=Marine VHF Ch26 Dutch Coastguard (Working Channel)
+f=161975000,m=NFM,d=AIS 1 Ship ID Tracking Data
+f=162025000,m=NFM,d=AIS 2 Ship ID Tracking Data
+a=156000000,b=162025000,m=NFM,s=25000,d=Marine VHF Full Band Scan
+f=156025000,m=NFM,d=Marine Ch01 IJmuiden / Coast
+f=156050000,m=NFM,d=Marine Ch02 Brandaris / Wadden
+f=156175000,m=NFM,d=Marine Ch04 Hoek van Holland
+f=161525000,m=NFM,d=Marine Ch70 DSC (Digital Selective Calling)
+
+# NATIONAL: 27MC / CITIZENS BAND (ALL 40 NL CHANNELS) ---
+f=26965000,m=AM,d=CB Ch01 NL
+f=26975000,m=AM,d=CB Ch02 NL
+f=26985000,m=AM,d=CB Ch03 NL
+f=27005000,m=AM,d=CB Ch04 NL
+f=27015000,m=AM,d=CB Ch05 NL
+f=27025000,m=AM,d=CB Ch06 NL
+f=27035000,m=AM,d=CB Ch07 NL
+f=27055000,m=AM,d=CB Ch08 NL
+f=27065000,m=AM,d=CB Ch09 EMERGENCY / INTERNATIONAL TRUCKS
+f=27075000,m=AM,d=CB Ch10 NL
+f=27085000,m=AM,d=CB Ch11 NL
+f=27105000,m=AM,d=CB Ch12 NL
+f=27115000,m=AM,d=CB Ch13 NL
+f=27125000,m=AM,d=CB Ch14 Calling Channel NL (Fixed Base)
+f=27135000,m=AM,d=CB Ch15 NL
+f=27155000,m=AM,d=CB Ch16 NL
+f=27165000,m=AM,d=CB Ch17 NL
+f=27175000,m=AM,d=CB Ch18 NL
+f=27185000,m=AM,d=CB Ch19 Highway / Truckers NL
+f=27205000,m=AM,d=CB Ch20 NL
+f=27215000,m=AM,d=CB Ch21 NL
+f=27225000,m=AM,d=CB Ch22 NL
+f=27255000,m=AM,d=CB Ch23 NL
+f=27235000,m=AM,d=CB Ch24 NL
+f=27245000,m=AM,d=CB Ch25 NL
+f=27265000,m=AM,d=CB Ch26 NL
+f=27275000,m=AM,d=CB Ch27 NL
+f=27285000,m=AM,d=CB Ch28 NL
+f=27295000,m=AM,d=CB Ch29 NL
+f=27305000,m=AM,d=CB Ch30 NL
+f=27315000,m=AM,d=CB Ch31 NL
+f=27325000,m=AM,d=CB Ch32 NL
+f=27335000,m=AM,d=CB Ch33 NL
+f=27345000,m=AM,d=CB Ch34 NL
+f=27355000,m=AM,d=CB Ch35 NL
+f=27365000,m=AM,d=CB Ch36 NL
+f=27375000,m=AM,d=CB Ch37 NL
+f=27385000,m=AM,d=CB Ch38 NL
+f=27395000,m=AM,d=CB Ch39 NL
+f=27405000,m=AM,d=CB Ch40 NL
+
+# NATIONAL: CIVIL AVIATION EN ROUTE (AIRBAND NL) ---
+a=118000000,b=136975000,m=AM,s=8333,d=Civil Aviation Airband Full Scan
+f=121500000,m=AM,d=Aviation Int. Emergency Frequency (GUARD)
+f=124300000,m=AM,d=Amsterdam Information (Civil FIS Low Alt)
+f=119175000,m=AM,d=Amsterdam Information (Civil FIS North Sea)
+f=125750000,m=AM,d=Amsterdam Radar En-Route
+f=131150000,m=AM,d=Amsterdam Radar Sector West
+
+# NATIONAL: MILITARY AVIATION VHF / UHF (NL) ---
+f=122250000,m=AM,d=Military Airfields VHF Tower (Shared)
+f=139250000,m=AM,d=Military Aviation VHF Air-to-Air
+a=225000000,b=400000000,m=AM,s=25000,d=Military UHF Airband Full Scan
+f=243000000,m=AM,d=Military UHF Emergency Frequency (NATO GUARD)
+f=251050000,m=AM,d=Military Radar Dutch Mill Info UHF
+
+# NATIONAL: AMATEUR RADIO NL REPEATERS ---
+a=144000000,b=146000000,m=NFM,s=12500,d=2 Meter Ham Radio Band
+f=145300000,m=NFM,d=2m NL Calling Frequency Simplex
+a=430000000,b=440000000,m=NFM,s=12500,d=70 Centimeter Ham Radio Band
+f=433500000,m=NFM,d=70cm NL Calling Frequency Simplex
+
+# NATIONAL: MISCELLANEOUS ---
+f=121400000,m=AM,d=Glider Aviation NL Central
+f=151337500,m=NFM,d=NS Dutch Railways / Shunting Yard (Analog remnant)
+f=171510000,m=NFM,d=NS/ProRail Incident Channel 1
+f=171590000,m=NFM,d=NS/ProRail Incident Channel 2
+f=171690000,m=NFM,d=NS/ProRail Incident Channel 3
+f=171430000,m=NFM,d=Strukton Rail
+f=171490000,m=NFM,d=Strukton Rail
+f=172550000,m=NFM,d=Red Cross NL (Emergency Relief Walkie-Talkies Analog)
+f=17263125,m=NFM,d=Rode Kruis RV5 Groningen
+f=17268125,m=NFM,d=Rode Kruis RV7 Groningen
+f=17278125,m=NFM,d=Rode Kruis RV10 Groningen
+f=16463125,m=NFM,d=Church Broadcast NL (Older Analog Systems)
+
+# ==============================================================================
+# PROVINCIAL FREQUENCIES (ALPHABETICAL ORDER) + HAM REPEATERS + DMR + LOCAL
+# ==============================================================================
+
+# PROVINCE: DRENTHE ---
+f=90800000,m=WFM,d=RTV Drenthe (Smilde Broadcast Mast)
+f=145625000,m=NFM,d=2m Ham Repeater PI3ASS (Assen)
+f=438450000,m=NFM,d=70cm Ham Repeater PI2ASS (Assen)
+f=438125000,m=NFM,d=70cm Ham Repeater PI2EMN (Emmen)
+f=122425000,m=AM,d=Hoogeveen Airport Radio
+
+# PROVINCE: FLEVOLAND ---
+f=89800000,m=WFM,d=Omroep Flevoland (Lelystad Broadcast Mast)
+f=119700000,m=AM,d=Lelystad Airport Tower (Controlled)
+f=123650000,m=AM,d=Lelystad Radio (VFR Info / Uncontrolled)
+f=145225000,m=NFM,d=2m Ham Repeater PI3ALM (Almere)
+f=43811250,m=NFM,d=70cm Ham Repeater PI2ALM (Almere)
+f=439075000,m=NFM,d=70cm Ham Repeater PI2LYD (Lelystad)
+f=156600000,m=NFM,d=Marine VHF Ch12 Houtrib Locks (Lelystad / IJsselmeer)
+f=157000000,m=NFM,d=Marine VHF Ch20 Krabbersgat Locks (Direction Enkhuizen)
+
+# PROVINCE: FRIESLAND ---
+f=92200000,m=WFM,d=Omrop Fryslan (Irnsum Broadcast Mast)
+f=120700000,m=AM,d=Airbase Leeuwarden Tower VHF
+f=379550000,m=AM,d=Airbase Leeuwarden Tower UHF
+f=122100000,m=AM,d=Ameland Airport Ballum Radio
+f=118925000,m=AM,d=Texel/Wadden Info Airband (Shared)
+f=145700000,m=NFM,d=2m Ham Repeater PI3LWD (Leeuwarden)
+f=43802500,m=NFM,d=70cm Ham Repeater PI2LWD (Leeuwarden)
+f=156100000,m=NFM,d=Marine VHF Ch02 Brandaris Lighthouse (Wadden Sea)
+
+# PROVINCE: GELDERLAND ---
+f=88900000,m=WFM,d=Omroep Gelderland (Millingen)
+f=103500000,m=WFM,d=Omroep Gelderland (Ugchelen/Apeldoorn)
+f=130650000,m=AM,d=Teuge Airport Radio
+f=123425000,m=AM,d=Kemper Airport / Arnhem Radio
+f=145575000,m=NFM,d=2m Ham Repeater PI3NMG (Nijmegen)
+f=438250000,m=NFM,d=70cm Ham Repeater PI2NMG (Nijmegen)
+f=438400000,m=NFM,d=70cm Ham Repeater PI2APN (Apeldoorn)
+f=43813750,m=NFM,d=70cm Ham Repeater PI2ANH (Arnhem)
+f=156900000,m=NFM,d=Marine VHF Ch18 Weurt Lock (Waal River)
+f=145712500,m=NFM,d=DMR PI1GRB (Groesbeek)
+f=438062500,m=NFM,d=DMR PI1ANH (Arnhem)
+
+# PROVINCE: GRONINGEN ---
+f=97500000,m=WFM,d=RTV Noord (Groningen Broadcast)
+f=120300000,m=AM,d=Groningen Airport Eelde Tower
+f=135450000,m=AM,d=Groningen Eelde Arrival / Approach
+f=119050000,m=AM,d=Groningen Eelde Delivery
+f=121700000,m=AM,d=Groningen Eelde Ground
+f=145750000,m=NFM,d=2m Ham Repeater PI3GRN (Groningen)
+f=43828750,m=NFM,d=70cm Ham Repeater PI2GRN (Groningen)
+f=156600000,m=NFM,d=Marine VHF Ch12 Delfzijl Harbor
+f=156300000,m=NFM,d=Marine VHF Ch06 Eemsmond Traffic
+f=438150000,m=NFM,d=DMR PI1NOG (Delfzijl)
+
+# PROVINCE: LIMBURG ---
+f=100300000,m=WFM,d=L1 Radio (South Limburg / Maastricht)
+f=97700000,m=WFM,d=L1 Radio (North Limburg / Venlo)
+f=118350000,m=AM,d=Maastricht Aachen Airport Tower
+f=121115000,m=AM,d=Maastricht Aachen Approach / Arrival
+f=121900000,m=AM,d=Maastricht Aachen Ground
+f=131000000,m=AM,d=Eurocontrol Maastricht (High Altitude Traffic)
+f=145775000,m=NFM,d=2m Ham Repeater PI3Valkenburg (South Limburg)
+f=438475000,m=NFM,d=70cm Ham Repeater PI2LBL (Hulsberg / Heerlen)
+f=438150000,m=NFM,d=70cm Ham Repeater PI2VEN (Venlo)
+f=156900000,m=NFM,d=Marine VHF Ch18 Born Lock (Julianakanaal)
+f=157000000,m=NFM,d=Marine VHF Ch20 Heel Lock (Meuse River)
+
+# PROVINCE: NOORD-BRABANT ---
+f=87600000,m=WFM,d=Omroep Brabant (Mid-Brabant / Tilburg)
+f=91000000,m=WFM,d=Omroep Brabant (West-Brabant / Breda)
+f=91900000,m=WFM,d=Omroep Brabant (East-Brabant / Eindhoven)
+f=95800000,m=WFM,d=Omroep Brabant (Northeast-Brabant / Den Bosch)
+f=107000000,m=WFM,d=Glow FM (Eindhoven Local)
+f=107300000,m=WFM,d=Omroep Tilburg (Local)
+f=107900000,m=WFM,d=Breda Nu (Local)
+f=131350000,m=AM,d=Eindhoven Tower (Civil/Mil)
+f=121925000,m=AM,d=Eindhoven Ground
+f=124535000,m=AM,d=Eindhoven Arrival / Radar
+f=122475000,m=AM,d=Eindhoven Glider Field (Welschap)
+f=122500000,m=AM,d=Breda Airport / Seppe Radio
+f=122150000,m=AM,d=Budel / Kempen Airport Radio
+f=133405000,m=AM,d=Airbase Volkel Tower VHF
+f=362300000,m=AM,d=Airbase Volkel Tower UHF
+f=120230000,m=AM,d=Airbase Gilze-Rijen Tower VHF
+f=335550000,m=AM,d=Airbase Gilze-Rijen Tower UHF
+f=145725000,m=NFM,d=2m Ham Repeater PI3EHN (Eindhoven)
+f=438075000,m=NFM,d=70cm Ham Repeater PI2EHN (Eindhoven)
+f=438250000,m=NFM,d=70cm Ham Repeater PI2TIL (Tilburg)
+f=438300000,m=NFM,d=70cm Ham Repeater PI2SHB (Den Bosch)
+f=438350000,m=NFM,d=70cm Ham Repeater PI2UTR (Breda Antenna - High Coverage)
+f=156600000,m=NFM,d=Marine VHF Ch12 Lock Schijndel / Lock III (Wilhelminakanaal)
+f=156700000,m=NFM,d=Marine VHF Ch14 Lock I / Lock II (Wilhelminakanaal Tilburg)
+f=156900000,m=NFM,d=Marine VHF Ch18 Lock Lith / Maximasluis (Meuse River)
+f=157000000,m=NFM,d=Marine VHF Ch20 Lock Empel (Dieze / Den Bosch)
+f=430325000,m=NFM,d=DMR PI2BRD (Breda)
+f=144900000,m=NFM,d=DMR PI3SHB (Haarsteeg / Den Bosch)
+
+# PROVINCE: NOORD-HOLLAND ---
+f=88900000,m=WFM,d=NH Radio (Amsterdam Broadcast)
+f=132350000,m=AM,d=Schiphol Tower T1 Main
+f=118100000,m=AM,d=Schiphol Tower T2 Buitenveldert
+f=119225000,m=AM,d=Schiphol Approach (Arrivals)
+f=121200000,m=AM,d=Schiphol Delivery (Clearances)
+f=121700000,m=AM,d=Schiphol Ground G1 (Taxiing)
+f=121800000,m=AM,d=Schiphol Ground G2 (Taxiing)
+f=118925000,m=AM,d=Texel Airport International Radio
+f=145625000,m=NFM,d=2m Ham Repeater PI3ASD (Amsterdam)
+f=438075000,m=NFM,d=70cm Ham Repeater PI2HNX (Haarlemmermeer)
+f=43841250,m=NFM,d=70cm Ham Repeater PI2ASD (Amsterdam)
+f=156600000,m=NFM,d=Marine VHF Ch12 Amsterdam Harbor Traffic
+f=157100000,m=NFM,d=Marine VHF Ch22 Coastguard IJmuiden Locks
+f=438012500,m=NFM,d=DMR PI1HRN (Hoorn)
+
+# PROVINCE: OVERIJSSEL ---
+f=99400000,m=WFM,d=RTV Oost (Zwolle Broadcast)
+f=89400000,m=WFM,d=RTV Oost (Losser/Twente Broadcast)
+f=145675000,m=NFM,d=2m Ham Repeater PI3ZWL (Zwolle)
+f=438325000,m=NFM,d=70cm Ham Repeater PI2TWE (Hengelo / Twente)
+f=438175000,m=NFM,d=70cm Ham Repeater PI2ZWL (Zwolle)
+f=122700000,m=AM,d=Enschede Airport Twente Radio
+f=156600000,m=NFM,d=Marine VHF Ch12 Lock Delden / Hengelo (Twentekanaal)
+f=157000000,m=NFM,d=Marine VHF Ch20 Lock Eefde (Entry Twentekanaal)
+f=430362500,m=NFM,d=DMR PI1DEV (Deventer)
+
+# PROVINCE: UTRECHT ---
+f=93100000,m=WFM,d=Radio M Utrecht (Provincial Broadcast)
+f=145625000,m=NFM,d=2m Ham Repeater PI3UTR (Gerbrandy Tower IJsselstein)
+f=438425000,m=NFM,d=70cm Ham Repeater PI2UTR (Gerbrandy Tower IJsselstein)
+f=438000000,m=NFM,d=70cm Ham Repeater PI2NOS (National Master Mast IJsselstein)
+f=122475000,m=AM,d=Soesterberg Radio (Glider Field)
+f=157000000,m=NFM,d=Marine VHF Ch20 Lock Amerongen (Nederrijn River)
+f=156900000,m=NFM,d=Marine VHF Ch18 Beatrix Lock (Nieuwegein)
+f=438350000,m=NFM,d=DMR PI1UTR (IJsselstein)
+
+# PROVINCE: ZEELAND ---
+f=87900000,m=WFM,d=Omroep Zeeland (Goes Main Mast)
+f=156700000,m=NFM,d=Marine VHF Ch14 Central Westerschelde Traffic (Vlissingen)
+f=156600000,m=NFM,d=Marine VHF Ch12 Sector Terneuzen (Locks)
+f=145650000,m=NFM,d=2m Ham Repeater PI3VLI (Vlissingen/Middelburg)
+f=43843750,m=NFM,d=70cm Ham Repeater PI2VLI (Vlissingen)
+f=122175000,m=AM,d=Midden-Zeeland Airport Radio (Arnemuiden)
+f=438037500,m=NFM,d=DMR PI2VLI (Vlissingen)
+
+# PROVINCE: ZUID-HOLLAND ---
+f=89000000,m=WFM,d=Omroep West (The Hague Broadcast)
+f=93400000,m=WFM,d=Rijnmond Radio (Rotterdam Broadcast)
+f=122200000,m=AM,d=Rotterdam The Hague Airport Tower
+f=127025000,m=AM,d=Rotterdam Delivery
+f=156600000,m=NFM,d=Marine VHF Ch12 Sector Maassluis (Rotterdam Harbor)
+f=156700000,m=NFM,d=Marine VHF Ch14 Sector Waalhaven (Rotterdam City Inner)
+f=156550000,m=NFM,d=Marine VHF Ch11 Sector Botlek (Botlek/Europoort)
+f=156950000,m=NFM,d=Marine VHF Ch19 Traffic Centre Hoek van Holland
+f=145750000,m=NFM,d=2m Ham Repeater PI3RTM (Rotterdam)
+f=438450000,m=NFM,d=70cm Ham Repeater PI2ZHL (The Hague)
+f=438275000,m=NFM,d=70cm Ham Repeater PI2RTM (Rotterdam)
