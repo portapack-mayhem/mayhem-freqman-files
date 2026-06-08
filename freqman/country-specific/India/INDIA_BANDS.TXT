@@ -1,76 +1,105 @@
-#Amateur Frequency Bands for India
-#Compiled (and updated regularly) by Anubis Darkwatch.
+# description: Amateur frequency bands for India - WPC/DoT allocations (NFAP 2022, Amateur Services Rules 2024)
+# author: Anubis Darkwatch
 
-#160mband
-a=1810000,b=1850000,m=cw,bw=500,s=50,d=160m CW
-a=1838000,b=1850000,m=usb,bw=2500,s=50,d=160m FT8
-a=1850000,b=1850000,m=lsb,bw=2700,s=50,d=160m SSB
+# === 160m Band (1.8 MHz) - MF ===
+# India allocation: 1.800-1.825 MHz (General), 1.800-1.850 MHz (General extended)
+a=1800000,b=1810000,m=CW,bw=500H,s=1kHz,d=160m CW
+a=1810000,b=1825000,m=USB,bw=2k70,s=1kHz,d=160m SSB (WPC)
+a=1838000,b=1840000,m=USB,bw=2k70,s=100Hz,d=160m FT8
 
-#80mband
-a=3500000,b=3573000,m=cw,bw=500,s=50,d=80m CW
-a=3573000,b=3600000,m=usb,bw=2500,s=50,d=80m FT8
-a=3600000,b=3700000,m=usb,bw=2500,s=50,d=80mr TTY
-a=3700000,b=3700000,m=lsb,bw=2700,s=50,d=80m SSB
+# === 80m Band (3.5 MHz) - HF ===
+# India allocation: 3.500-3.700 MHz + 3.890-3.900 MHz
+a=3500000,b=3560000,m=CW,bw=500H,s=1kHz,d=80m CW
+a=3560000,b=3600000,m=USB,bw=2k70,s=1kHz,d=80m Digital/RTTY
+a=3573000,b=3575000,m=USB,bw=2k70,s=100Hz,d=80m FT8
+a=3600000,b=3700000,m=LSB,bw=2k70,s=1kHz,d=80m SSB
+a=3890000,b=3900000,m=LSB,bw=2k70,s=1kHz,d=80m SSB (India secondary)
 
-#40mband
-a=7000000,b=7074000,m=cw,bw=500,s=50,d=40m CW
-a=7074000,b=7090000,m=usb,bw=2500,s=50,d=40m FT8
-a=7090000,b=7100000,m=usb,bw=2500,s=50,d=40m PSK31
-a=7100000,b=7200000,m=usb,bw=2500,s=50,d=40m RTTY
-a=7200000,b=7255000,m=lsb,bw=2700,s=50,d=40m SSB
-a=7255000,b=7255000,m=am,bw=10000,s=50,d=40m AM
+# === 60m Band (5 MHz) - HF ===
+# India allocation: 5.3515-5.3665 MHz (General only, secondary)
+a=5351500,b=5366500,m=USB,bw=2k70,s=1kHz,d=60m USB (secondary)
 
-#30mband(digitalonly)
-a=10100000,b=10136000,m=cw,bw=500,s=50,d=30m CW
-a=10136000,b=10140000,m=usb,bw=2500,s=50,d=30m FT8
-a=10140000,b=10140000,m=usb,bw=2500,s=50,d=30m PSK31
+# === 40m Band (7 MHz) - HF ===
+# India allocation: 7.000-7.200 MHz
+a=7000000,b=7040000,m=CW,bw=500H,s=1kHz,d=40m CW
+a=7040000,b=7050000,m=USB,bw=2k70,s=1kHz,d=40m Digital/RTTY
+a=7074000,b=7076000,m=USB,bw=2k70,s=100Hz,d=40m FT8
+a=7090000,b=7100000,m=USB,bw=2k70,s=1kHz,d=40m PSK31
+a=7100000,b=7200000,m=LSB,bw=2k70,s=1kHz,d=40m SSB
+f=7255000,m=AM,bw=DSB 9k,d=40m AM calling frequency
 
-#20mband
-a=14000000,b=14074000,m=cw,bw=500,s=50,d=20m CW
-a=14074000,b=14090000,m=usb,bw=2500,s=50,d=20m FT8
-a=14090000,b=14100000,m=usb,bw=2500,s=50,d=20m RTTY
-a=14100000,b=14350000,m=usb,bw=2500,s=50,d=20m PSK31
-a=14350000,b=14286000,m=usb,bw=2700,s=50,d=20m SSB
-a=14286000,b=14286000,m=am,bw=10000,s=50,d=20m AM
+# === 30m Band (10 MHz) - HF ===
+# India allocation: 10.100-10.150 MHz (General only, CW/Digital only)
+a=10100000,b=10130000,m=CW,bw=500H,s=1kHz,d=30m CW
+a=10136000,b=10138000,m=USB,bw=2k70,s=100Hz,d=30m FT8
+a=10140000,b=10150000,m=USB,bw=2k70,s=1kHz,d=30m Digital
 
-#17mband
-a=18068000,b=18100000,m=cw,bw=500,s=50,d=17m CW
-a=18100000,b=18140000,m=usb,bw=2500,s=50,d=17m FT8
-a=18140000,b=18168000,m=usb,bw=2500,s=50,d=17m PSK31
-a=18168000,b=18168000,m=usb,bw=2700,s=50,d=17m SSB
+# === 20m Band (14 MHz) - HF ===
+# India allocation: 14.000-14.350 MHz
+a=14000000,b=14070000,m=CW,bw=500H,s=1kHz,d=20m CW
+a=14070000,b=14100000,m=USB,bw=2k70,s=1kHz,d=20m Digital/RTTY
+a=14074000,b=14076000,m=USB,bw=2k70,s=100Hz,d=20m FT8
+a=14100000,b=14350000,m=USB,bw=2k70,s=1kHz,d=20m SSB
+f=14286000,m=AM,bw=DSB 9k,d=20m AM calling frequency
 
-#15mband
-a=21000000,b=21074000,m=cw,bw=500,s=50,d=15m CW
-a=21074000,b=21090000,m=usb,bw=2500,s=50,d=15m FT8
-a=21090000,b=21100000,m=usb,bw=2500,s=50,d=15m RTTY
-a=21100000,b=21450000,m=usb,bw=2500,s=50,d=15m PSK31
-a=21450000,b=21360000,m=usb,bw=2700,s=50,d=15 SSB
-a=21360000,b=21360000,m=am,bw=10000,s=50,d=15m AM
+# === 17m Band (18 MHz) - HF ===
+# India allocation: 18.068-18.168 MHz
+a=18068000,b=18110000,m=CW,bw=500H,s=1kHz,d=17m CW
+a=18100000,b=18109000,m=USB,bw=2k70,s=1kHz,d=17m Digital
+a=18100000,b=18102000,m=USB,bw=2k70,s=100Hz,d=17m FT8
+a=18110000,b=18168000,m=USB,bw=2k70,s=1kHz,d=17m SSB
 
-#12mband
-a=24890000,b=24915000,m=cw,bw=500,s=50,d=12m CW
-a=24915000,b=24920000,m=usb,bw=2500,s=50,d=12m FT8
-a=24920000,b=24990000,m=usb,bw=2500,s=50,d=12m PSK31
-a=24990000,b=24990000,m=usb,bw=2700,s=50,d=12m SSB
+# === 15m Band (21 MHz) - HF ===
+# India allocation: 21.000-21.450 MHz
+a=21000000,b=21070000,m=CW,bw=500H,s=1kHz,d=15m CW
+a=21070000,b=21110000,m=USB,bw=2k70,s=1kHz,d=15m Digital/RTTY
+a=21074000,b=21076000,m=USB,bw=2k70,s=100Hz,d=15m FT8
+a=21110000,b=21450000,m=USB,bw=2k70,s=1kHz,d=15m SSB
+f=21360000,m=AM,bw=DSB 9k,d=15m AM calling frequency
 
-#10mband
-a=28000000,b=28074000,m=cw,bw=500,s=50,d=10m CW
-a=28074000,b=28120000,m=usb,bw=2500,s=50,d=10m FT8
-a=28120000,b=28150000,m=usb,bw=2500,s=50,d=10m RTTY
-a=28150000,b=28400000,m=usb,bw=2500,s=50,d=10m PSK31
-a=28400000,b=29000000,m=usb,bw=2700,s=50,d=10m SSB
-a=29000000,b=29600000,m=am,bw=10000,s=50,d=10m AM
-a=29600000,b=29600000,m=fm,bw=12500,s=50,d=10m FM
+# === 12m Band (24 MHz) - HF ===
+# India allocation: 24.890-24.990 MHz
+a=24890000,b=24915000,m=CW,bw=500H,s=1kHz,d=12m CW
+a=24915000,b=24925000,m=USB,bw=2k70,s=100Hz,d=12m FT8
+a=24925000,b=24990000,m=USB,bw=2k70,s=1kHz,d=12m SSB
 
-#vhf
-a=50000000,b=50125000,m=cw,bw=500,s=50,d=6m CW
-a=50125000,b=50280000,m=usb,bw=2700,s=50,d=6m SSB
-a=50280000,b=50400000,m=usb,bw=2500,s=50,d=6m FT8
-a=50400000,b=50400000,m=fm,bw=12500,s=50,d=6m FM
+# === 10m Band (28 MHz) - HF ===
+# India allocation: 28.000-29.700 MHz
+a=28000000,b=28070000,m=CW,bw=500H,s=1kHz,d=10m CW
+a=28070000,b=28190000,m=USB,bw=2k70,s=1kHz,d=10m Digital/RTTY
+a=28074000,b=28076000,m=USB,bw=2k70,s=100Hz,d=10m FT8
+a=28190000,b=28680000,m=USB,bw=2k70,s=1kHz,d=10m SSB
+a=28680000,b=29000000,m=AM,bw=DSB 9k,s=1kHz,d=10m AM
+f=29000000,m=AM,bw=DSB 9k,d=10m AM calling
+a=29000000,b=29510000,m=AM,bw=DSB 9k,s=1kHz,d=10m AM upper
+a=29510000,b=29700000,m=NFM,bw=16k,s=10kHz,d=10m FM repeaters
 
-a=144000000,b=144175000,m=cw,bw=500,s=50,d=2m CW
-a=144175000,b=144500000,m=usb,bw=2700,s=50,d=2m SSB
-a=144500000,b=144600000,m=fm,bw=12500,s=50,d=2m FM
-a=144600000,b=144900000,m=am,bw=10000,s=50,d=2m AM
-a=144900000,b=144900000,m=usb,bw=2500,s=50,d=2m FT8
+# === 6m Band (50 MHz) - VHF ===
+# India allocation: 50.000-54.000 MHz (General only, 25W)
+a=50000000,b=50100000,m=CW,bw=500H,s=1kHz,d=6m CW
+a=50100000,b=50300000,m=USB,bw=2k70,s=1kHz,d=6m SSB
+a=50276000,b=50278000,m=USB,bw=2k70,s=100Hz,d=6m FT8
+a=50300000,b=51000000,m=NFM,bw=16k,s=25kHz,d=6m FM
+f=52525000,m=NFM,bw=16k,d=6m FM calling frequency
 
+# === 2m Band (144 MHz) - VHF ===
+# India allocation: 144-146 MHz
+a=144000000,b=144150000,m=CW,bw=500H,s=1kHz,d=2m CW
+a=144150000,b=144400000,m=USB,bw=2k70,s=1kHz,d=2m SSB
+a=144174000,b=144176000,m=USB,bw=2k70,s=100Hz,d=2m FT8
+a=144400000,b=144990000,m=NFM,bw=16k,s=25kHz,d=2m FM
+f=145000000,m=NFM,bw=16k,d=2m FM calling frequency (India)
+r=145000000,t=145600000,m=NFM,bw=16k,d=2m Repeater (600kHz offset)
+
+# === 70cm Band (430 MHz) - UHF ===
+# India allocation: 434-440 MHz (Restricted), 434-438 MHz per WPC table
+a=434000000,b=435000000,m=NFM,bw=16k,s=25kHz,d=70cm FM
+a=435000000,b=438000000,m=NFM,bw=16k,s=25kHz,d=70cm Satellite/FM
+f=438000000,m=NFM,bw=16k,d=70cm FM calling frequency
+r=438000000,t=431000000,m=NFM,bw=16k,d=70cm Repeater (-7MHz offset)
+
+# === 23cm Band (1240 MHz) - UHF ===
+# India allocation: 1240-1300 MHz (General only)
+a=1240000000,b=1260000000,m=NFM,bw=16k,s=25kHz,d=23cm FM/ATV
+a=1260000000,b=1270000000,m=NFM,bw=16k,s=25kHz,d=23cm Satellite uplink
+a=1270000000,b=1300000000,m=NFM,bw=16k,s=25kHz,d=23cm FM/ATV
