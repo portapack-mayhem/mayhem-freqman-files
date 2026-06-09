@@ -1,4 +1,4 @@
-# Decription: French airport frequencies
+# Decription: French airport frequencies ORLY
 # Author : Ademolght Discord : testcode_m5stick_44450
 
 # Orly-Airport
