@@ -1,0 +1,45 @@
+f=87600000,m=WFM,bw=200k,d=Radio Zorana
+f=88000000,m=WFM,bw=200k,d=Radio Alma Mater
+f=88300000,m=WFM,bw=200k,d=BNR Radio Stara Zagora
+f=88400000,m=WFM,bw=200k,d=Bulgaria ON AIR
+f=89100000,m=WFM,bw=200k,d=Classic FM
+f=89900000,m=WFM,bw=200k,d=FM Plus Plovdiv
+f=90000000,m=WFM,bw=200k,d=Darik Nostalgie
+f=90200000,m=WFM,bw=200k,d=Radio Bella Petrich
+f=90400000,m=WFM,bw=200k,d=Radio Aurea
+f=90900000,m=WFM,bw=200k,d=BNR Radio Blagoevgrad
+f=91000000,m=WFM,bw=200k,d=Radio Antena
+f=91100000,m=WFM,bw=200k,d=Power FM Burgas
+f=91500000,m=WFM,bw=200k,d=Darik Radio Shumen
+f=91700000,m=WFM,bw=200k,d=Alpha Radio Varna
+f=91900000,m=WFM,bw=200k,d=BG Radio
+f=92400000,m=WFM,bw=200k,d=Magic FM
+f=92500000,m=WFM,bw=200k,d=BNR Radio Burgas
+f=92900000,m=WFM,bw=200k,d=BNR "Hristo Botev" Program
+f=93400000,m=WFM,bw=200k,d=Melody Radio1Rock
+f=93900000,m=WFM,bw=200k,d=Radio K2
+f=94000000,m=WFM,bw=200k,d=BNR Radio Plovdiv
+f=94400000,m=WFM,bw=200k,d=BNR Radio Vidin
+f=94500000,m=WFM,bw=200k,d=BNR Radio Sofia
+f=95500000,m=WFM,bw=200k,d=Radio 999 Yambol
+f=95700000,m=WFM,bw=200k,d=Radio Nova News
+f=96000000,m=WFM,bw=200k,d=Radio Atlantic Plovdiv
+f=96700000,m=WFM,bw=200k,d=Radio Veronica
+f=97600000,m=WFM,bw=200k,d=Radio Vitosha
+f=97700000,m=WFM,bw=200k,d=Radio Sevlievo
+f=98300000,m=WFM,bw=200k,d=Radio1Rock
+f=99000000,m=WFM,bw=200k,d=Radio Rashi Asen
+f=99100000,m=WFM,bw=200k,d=Radio Veselina
+f=99700000,m=WFM,bw=200k,d=Radio City
+f=100300000,m=WFM,bw=200k,d=BNR Horizont
+f=100400000,m=WFM,bw=200k,d=Radio Katra Plovdiv
+f=101100000,m=WFM,bw=200k,d=bTV Radio
+f=101700000,m=WFM,bw=200k,d=Radio Nova
+f=103400000,m=WFM,bw=200k,d=BNR Radio Varna
+f=103600000,m=WFM,bw=200k,d=Radio Focus Sofia
+f=103900000,m=WFM,bw=200k,d=Radio Maia
+f=104000000,m=WFM,bw=200k,d=Jazz FM Blagoevgrad
+f=105000000,m=WFM,bw=200k,d=Darik Radio
+f=105600000,m=WFM,bw=200k,d=Radio Euronews Bulgaria
+f=106000000,m=WFM,bw=200k,d=Radio Balkanika Dobrich
+f=107900000,m=WFM,bw=200k,d=Radio Ultra
