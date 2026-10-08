@@ -1,0 +1,29 @@
+f=71570000,m=WFM,bw=200k,d=Vocea Basarabiei
+f=88600000,m=WFM,bw=200k,d=Megapolis FM
+f=89600000,m=WFM,bw=200k,d=Radio Chisinau
+f=90700000,m=WFM,bw=200k,d=Aquarelle FM
+f=91600000,m=WFM,bw=200k,d=Love Radio Moldova
+f=92100000,m=WFM,bw=200k,d=Publika FM
+f=92800000,m=WFM,bw=200k,d=Univers FM
+f=94900000,m=WFM,bw=200k,d=Radio Relax Moldova
+f=96200000,m=WFM,bw=200k,d=Discovery FM
+f=96300000,m=WFM,bw=200k,d=Radio Iasi
+f=96600000,m=WFM,bw=200k,d=Radio Moldova Tineret
+f=96700000,m=WFM,bw=200k,d=Radio Roks
+f=97200000,m=WFM,bw=200k,d=BBC
+f=97500000,m=WFM,bw=200k,d=Radio Orhei
+f=97700000,m=WFM,bw=200k,d=Maestro FM
+f=98500000,m=WFM,bw=200k,d=Eco FM
+f=99700000,m=WFM,bw=200k,d=Radio Noroc
+f=100100000,m=WFM,bw=200k,d=Jurnal FM
+f=100900000,m=WFM,bw=200k,d=Kiss FM
+f=101300000,m=WFM,bw=200k,d=Dance FM
+f=101700000,m=WFM,bw=200k,d=HIT FM Moldova
+f=102700000,m=WFM,bw=200k,d=Virgin Radio
+f=104200000,m=WFM,bw=200k,d=LSM Radio
+f=105200000,m=WFM,bw=200k,d=Radio 7 Moldova
+f=105900000,m=WFM,bw=200k,d=Russian Radio
+f=106800000,m=WFM,bw=200k,d=Radio Plai
+f=106900000,m=WFM,bw=200k,d=PRO FM
+f=107200000,m=WFM,bw=200k,d=Radio 7
+f=107300000,m=WFM,bw=200k,d=RFI Romania
